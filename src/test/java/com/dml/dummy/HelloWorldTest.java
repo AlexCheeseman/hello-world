@@ -18,7 +18,7 @@ public class HelloWorldTest {
 		String hello = HelloWorld.sayHello( );
 		
 		System.out.println( hello );
-		assertEquals( "Hello Lucy", hello );
+		assertEquals( "Hello world", hello );
 	}
 
 }
