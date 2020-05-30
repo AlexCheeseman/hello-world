@@ -29,3 +29,12 @@ steps:
     #reportDirectory: # Optional
     #additionalCodeCoverageFiles: # Optional
     failIfCoverageEmpty: true # Optional
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarCloud'
+    organization: 'AlexCheeseman'
+    scannerMode: 'Other'
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
+- task: SonarCloudAnalyze@1
