@@ -25,7 +25,7 @@ steps:
   inputs:
     codeCoverageTool: 'JaCoCo' # Options: cobertura, jaCoCo
     summaryFileLocation: $(System.DefaultWorkingDirectory)/target/jacoco.exec
-    #pathToSources: # Optional
+    pathToSources: $(System.DefaultWorkingDirectory)/src/main/java/.# Optional
     #reportDirectory: # Optional
     #additionalCodeCoverageFiles: # Optional
-    #failIfCoverageEmpty: false # Optional
+    failIfCoverageEmpty: true # Optional
