@@ -24,7 +24,7 @@ steps:
 - task: PublishCodeCoverageResults@1
   inputs:
     codeCoverageTool: 'JaCoCo' # Options: cobertura, jaCoCo
-    summaryFileLocation: $(Common.TestResultsDirectory)/**/*.xml
+    summaryFileLocation: $(System.DefaultWorkingDirectory)/**/site/jacoco/jacoco.xml
     pathToSources: $(System.DefaultWorkingDirectory)/src/main/java/.# Optional
     #reportDirectory: # Optional
     #additionalCodeCoverageFiles: # Optional
