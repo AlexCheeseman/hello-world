@@ -13,10 +13,10 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 
-		<sonar.projectKey>AlexCheeseman_hello-world</sonar.projectKey>
+		<!--<sonar.projectKey>AlexCheeseman_hello-world</sonar.projectKey>
 		<sonar.organization>alexcheeseman</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.login>3529d49c5d4ccb068cbb9b4960f74e4e1ddad49e</sonar.login>
+		<sonar.login>3529d49c5d4ccb068cbb9b4960f74e4e1ddad49e</sonar.login>-->
 
 	</properties>
 
