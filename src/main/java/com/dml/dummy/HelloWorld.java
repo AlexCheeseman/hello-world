@@ -2,11 +2,11 @@ package com.dml.dummy;
 
 public class HelloWorld {
 
-	static public String sayHello() {
+	public static String sayHello() {
 		return sayHello( "world" );
 	}
 	
-	static public String sayHello( String name ) {
+	public static String sayHello( String name ) {
 		return "Hello " + name;
 	}
 	
